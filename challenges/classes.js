@@ -18,16 +18,11 @@ class CubeMaker extends CuboidMaker {
     super(props);
     this.length = this.width = this.height;
   }
-  volume() {
-    return(this.length ** 3);
-  }
-  surfaceArea() {
-    return (6 * this.length ** 2);
-  }
+
 }
 
 const cuboide = new CubidMaker ({
-  length: 5,
+  length: 4,
   width: 5,
   height: 5
  });
